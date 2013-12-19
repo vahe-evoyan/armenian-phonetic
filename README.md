@@ -1,6 +1,9 @@
-## Armenian Phonetic Keyboard Layout
+## [Armenian Phonetic Keyboard Layout](http://evoyan.org/armenian-phonetic-for-mac)
 
 ### Armenian phonetic keyboard layout for Mac OSX.
+
+This project was initated as an alternative keyboard layout for those who have an experience of working with Armenian Phonetic layout in Windows/Linux. It basically is a created from scratch using [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele) tool on Mac for editing keyboard layouts. It is hosted on [Github](https://github.com/vahe-evoyan/armenian-phonetic) page. Please feel free to file bugs right on [Github](https://github.com/vahe-evoyan/armenian-phonetic/issues).
+Below are breaf instructions on the layout set-up.
 
 #### How To Install
 
@@ -9,11 +12,10 @@
 3. Log out and log back in.
 4. Go to *Language & Text* preferences and check the *Armenian - Phonetic* check-box.
 
-### Հայերեն ֆոնետիկ ստեղնաշար Mac OSX-ի համար։
 
 #### Ինչպես տեղադրել
 
 1. Ներբեռնեք ֆայլերը (`ArmenianPhonetic.keylayout` եւ `ArmenianPhonetic.icns`)։
-2. Պատճենեք ֆայլը `/Library/Keyboard Layouts/` թղթապանակ (`sudo cp ArmenianPhonetic.* /Library/Keyboard\ Layouts`)։
+2. Արտագրեք ֆայլը `/Library/Keyboard Layouts/` թղթապանակի մեջ (`sudo cp ArmenianPhonetic.* /Library/Keyboard\ Layouts`)։
 3. Դուրս եկեք համակարգից եւ նորից ետ մտեք։
 4. Բացեք *Language & Text*  հատկությունները եւ ընտրեք *Armenian - Phonetic* վանդակը։
