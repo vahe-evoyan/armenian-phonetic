@@ -12,6 +12,15 @@ Below are breaf instructions on the layout set-up.
 3. Log out and log back in.
 4. Go to *Language & Text* preferences and check the *Armenian - Phonetic* check-box.
 
+### Script for installing
+As an alternative for installation, you can copy and paste this in Terminal
+<pre>
+cd ~/Downloads/
+unzip armenian-phonetic-master.zip
+cd armenian-phonetic-master
+sudo cp ArmenianPhonetic.keylayout /Library/Keyboard\ Layouts/
+sudo cp ArmenianPhonetic.icns /Library/Keyboard\ Layouts/
+</pre>
 
 #### Ինչպես տեղադրել
 
