@@ -1,7 +1,7 @@
 <?XML version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.4 on 2013-02-10 at 00:22 (GMT+04:00)-->
-<!--Last edited by Ukelele version 2.2.8 on 2015-01-16 at 00:58 (GMT+4)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-01-16 at 00:55 (GMT+4)-->
 <keyboard group="126" id="-14243" name="Armenian - Phonetic" maxout="2">
     <layouts>
         <layout first="0" last="17" modifiers="Modifiers" mapSet="ANSI"/>
