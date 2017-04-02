@@ -7,15 +7,15 @@ Below are breaf instructions on the layout set-up.
 
 #### How To Install
 
-1. Download the files (`ArmenianPhonetic.keylayout` and `ArmenianPhonetic.icns`).
+1. Download the files (`ArmenianPhonetic.keylayout`,`ArmenianPhonetic.icns` and `ArmenianPhonetic.bundle`).
 2. Copy them to `/Library/Keyboard Layouts/` directory (you will need to be a super user).
 3. Log out and log back in.
-4. Go to *Language & Text* preferences and check the *Armenian - Phonetic* check-box.
+4. Go to *Language & Text* (or System Preferences > Keyboard > Input Sources) preferences and check the *Armenian - Phonetic* check-box.
 
 
 #### Ինչպես տեղադրել
 
-1. Ներբեռնեք ֆայլերը (`ArmenianPhonetic.keylayout` եւ `ArmenianPhonetic.icns`)։
+1. Ներբեռնեք ֆայլերը (`ArmenianPhonetic.keylayout`,`ArmenianPhonetic.icns` եւ `ArmenianPhonetic.bundle` )։
 2. Արտագրեք ֆայլը `/Library/Keyboard Layouts/` թղթապանակի մեջ (`sudo cp ArmenianPhonetic.* /Library/Keyboard\ Layouts`)։
 3. Դուրս եկեք համակարգից եւ նորից ետ մտեք։
-4. Բացեք *Language & Text*  հատկությունները եւ ընտրեք *Armenian - Phonetic* վանդակը։
+4. Բացեք *Language & Text* (կամ System Preferences > Keyboard > Input Sources) հատկությունները եւ ընտրեք *Armenian - Phonetic* վանդակը։
