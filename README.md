@@ -7,12 +7,12 @@ Below are breaf instructions on the layout set-up.
 
 #### How To Install
 
-#### Option 1
+##### Option 1
 1. Download and install ArmenianPhonetic.pkg package.
 2. (It might ask to allow it to run from System Preferences > Security & Privacy > Open ArmenianKeyboard.pkg)
 3. Go to *Language & Text* (or System Preferences > Keyboard > Input Sources) preferences and check the *Armenian - Phonetic* check-box.
 
-#### Option 2 
+##### Option 2 
 
 1. Download the files (`ArmenianPhonetic.keylayout`,`ArmenianPhonetic.icns` and `ArmenianPhonetic.bundle`).
 2. Copy them to `/Library/Keyboard Layouts/` directory (you will need to be a super user).
