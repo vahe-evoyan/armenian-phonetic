@@ -5,6 +5,13 @@
 This project was initated as an alternative keyboard layout for those who have an experience of working with Armenian Phonetic layout in Windows/Linux. It basically is a created from scratch using [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele) tool on Mac for editing keyboard layouts. It is hosted on [Github](https://github.com/vahe-evoyan/armenian-phonetic) page. Please feel free to file bugs right on [Github](https://github.com/vahe-evoyan/armenian-phonetic/issues).
 Below are breaf instructions on the layout set-up.
 
+#### Included Layouts
+
+* Armenian Phonetic - Regular phonetic layout where key "R" types "ր".
+* Armenian Phonetic (KDWin) - Exacly the same layout as in KDWin.
+* Armenian Phonetic With English - Option key changes the keys to English in place of special characters.
+* Armenian Phonetic (KDWin) With English - KDWin phonetic layout with Option key feature.
+
 #### How To Install
 
 1. Download the files (`ArmenianPhonetic.keylayout`,`ArmenianPhonetic.icns` and `ArmenianPhonetic.bundle`).

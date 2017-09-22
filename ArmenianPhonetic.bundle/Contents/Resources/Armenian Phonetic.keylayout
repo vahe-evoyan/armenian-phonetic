@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.2.5.180 on 2017-09-20 at 20:54 (GMT+4)-->
-<!--Last edited by Ukelele version 3.2.5.180 on 2017-09-21 at 17:11 (GMT+4)-->
-<keyboard group="126" id="-28669" name="Armenian Phonetic" maxout="2">
+<!--Last edited by Ukelele version 3.2.5.180 on 2017-09-21 at 17:27 (GMT+4)-->
+<keyboard group="126" id="-18463" name="Armenian Phonetic" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
