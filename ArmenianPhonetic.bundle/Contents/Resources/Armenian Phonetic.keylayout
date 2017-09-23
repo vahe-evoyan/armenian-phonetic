@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.2.5.180 on 2017-09-20 at 20:54 (GMT+4)-->
-<!--Last edited by Ukelele version 3.2.5.180 on 2017-09-21 at 17:27 (GMT+4)-->
-<keyboard group="126" id="-18463" name="Armenian Phonetic" maxout="2">
+<!--Last edited by Ukelele version 3.2.5.180 on 2017-09-23 at 20:43 (GMT+4)-->
+<keyboard group="126" id="-15998" name="Armenian Phonetic" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -83,7 +83,7 @@
 			<key code="46" output="մ"/>
 			<key code="47" output="։"/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" output=""/>
+			<key code="49" output=" "/>
 			<key code="50" output="՝"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
@@ -188,7 +188,7 @@
 			<key code="46" output="Մ"/>
 			<key code="47" output="»"/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" output=""/>
+			<key code="49" output=" "/>
 			<key code="50" output="՜"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
@@ -293,7 +293,7 @@
 			<key code="46" output="µ"/>
 			<key code="47" output="≥"/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" output=""/>
+			<key code="49" output=" "/>
 			<key code="50" output="`"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
@@ -440,7 +440,7 @@
 			<key code="46" output=""/>
 			<key code="47" output=""/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" output=""/>
+			<key code="49" output=" "/>
 			<key code="50" output=""/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
