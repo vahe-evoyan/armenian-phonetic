@@ -3,7 +3,7 @@
   "icon": "ArmenianPhonetic.icns",
   "background": "background.png",
   "contents": [
-    {"x": 165, "y": 250, "type": "file", "path": "ArmenianPhonetic.bundle"},
+    {"x": 150, "y": 250, "type": "file", "path": "ArmenianPhonetic.bundle"},
     {"x": 440, "y": 250, "type": "link", "path": "/Library/Keyboard Layouts"}
   ],
   "window": {
