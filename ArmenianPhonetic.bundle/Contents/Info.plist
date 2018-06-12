@@ -5,15 +5,36 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.armenianphonetic</string>
 	<key>CFBundleName</key>
-	<string>Armenian - Phonetic</string>
+	<string>ArmenianPhonetic</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
-	<key>KLInfo_Armenian - Phonetic</key>
+	<string>2.0</string>
+	<key>KLInfo_Armenian Phonetic</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.armenian- phonetic.armenian- phonetic</string>
+		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic</string>
 		<key>TISIntendedLanguage</key>
-		<string>hy-Armn-AM-arev</string>
+		<string>hy-AM-arevela</string>
+	</dict>
+	<key>KLInfo_Armenian Phonetic (KDWin)</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic(kdwin)</string>
+		<key>TISIntendedLanguage</key>
+		<string>hy-AM-arevela</string>
+	</dict>
+	<key>KLInfo_Armenian Phonetic (KDWin) With English</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic(kdwin)withenglish</string>
+		<key>TISIntendedLanguage</key>
+		<string>hy-AM-arevela</string>
+	</dict>
+	<key>KLInfo_Armenian Phonetic With English</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphoneticwithenglish</string>
+		<key>TISIntendedLanguage</key>
+		<string>hy-AM-arevela</string>
 	</dict>
 </dict>
 </plist>
