@@ -1,6 +1,6 @@
 {
   "name": "armenian-phonetic",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Armenian phonetic keyboard layouts for Mac OSX",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
