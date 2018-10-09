@@ -14,7 +14,7 @@ Below are brief instructions on the layout set-up.
 * Armenian Phonetic (KDWin) With English - KDWin phonetic layout with Option key feature.
 
 #### How To Install
-1. Download [ArmenianPhonetic.dmg](https://github.com/vahe-evoyan/armenian-phonetic/releases/download/v2.0/ArmenianPhonetic.dmg) file from the releases section.
+1. Download [ArmenianPhonetic.dmg](https://github.com/vahe-evoyan/armenian-phonetic/releases/download/v2.1/ArmenianPhonetic.dmg) file from the releases section.
 ![Image Window](/screenshots/dmg-window.png)
 2. Drag the `ArmenianPhonetic.bundle` file to the `Keyboard Layouts` folder.
 3. The system will ask you to authenticate, as the directory requires super user access.
