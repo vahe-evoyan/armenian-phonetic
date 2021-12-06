@@ -21,7 +21,7 @@
     "url": "https://github.com/vahe-evoyan/armenian-phonetic/issues"
   },
   "homepage": "https://github.com/vahe-evoyan/armenian-phonetic#readme",
-  "devDependencies": {
-    "appdmg": "^0.4.5"
+  "dependencies": {
+    "appdmg": "^0.6.2"
   }
 }
