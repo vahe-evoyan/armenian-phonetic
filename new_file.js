@@ -1,0 +1,10 @@
+console.log("Вывод");
+console.log("Вывод");
+console.log("Вывод");
+console.log("Вывод");
+console.log("Вывод");
+console.log("Вывод");
+console.log("Вывод");
+console.log("Вывод");
+console.log("Вывод");
+console.log("Вывод");
