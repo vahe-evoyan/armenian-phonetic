@@ -1,6 +1,6 @@
 {
   "name": "armenian-phonetic",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Armenian phonetic keyboard layouts for Mac OSX",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/vahe-evoyan/armenian-phonetic#readme",
   "dependencies": {
-    "appdmg": "^0.6.2"
+    "appdmg": "^0.6.4"
   }
 }

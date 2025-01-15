@@ -10,6 +10,10 @@
 	<string>2.0</string>
 	<key>KLInfo_Armenian Phonetic</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic</string>
 		<key>TISIntendedLanguage</key>
@@ -17,6 +21,10 @@
 	</dict>
 	<key>KLInfo_Armenian Phonetic (KDWin)</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic(kdwin)</string>
 		<key>TISIntendedLanguage</key>
@@ -24,6 +32,10 @@
 	</dict>
 	<key>KLInfo_Armenian Phonetic (KDWin) With English</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic(kdwin)withenglish</string>
 		<key>TISIntendedLanguage</key>
@@ -31,6 +43,10 @@
 	</dict>
 	<key>KLInfo_Armenian Phonetic With English</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphoneticwithenglish</string>
 		<key>TISIntendedLanguage</key>
