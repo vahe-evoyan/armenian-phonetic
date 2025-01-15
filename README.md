@@ -22,19 +22,52 @@ Below are brief instructions on the layout set-up.
 4. The layouts should appear in the *Language & Text* (or System Preferences > Keyboard > Input Sources) preferences section. In case they didn't, simply log out and log back in, so that the OS reloads the layouts.
 ![Permission Access](/screenshots/layout-settings.png)
 
-#### Manual Install(works also with mac on Apple silicon, tested on Apple M3 Pro)
 
-1. get the needed layout files/folders and move into layouts folder:
-- download the file [./ArmenianPhonetic.icns](./ArmenianPhonetic.icns) and folder [./ArmenianPhonetic.bundle](./ArmenianPhonetic.bundle) and copy them to `~/Library/Keyboard Layouts/` directory, in order to see Library folder you will need to go to home folder in finder ( Command-Shift-H) and in View->Show View Options (Command-J) check "Show Library Folder", see the screen in [screen](./screenshots/)
-- or if you fluent with terminal and git tools you can run the following command(it clones git repo into folder, copy needed files into layouts directory and cleanups/deletes the git repo folder):
+### Manual Installation
+
+**This method is compatible with Macs running on Apple Silicon (tested on Apple M1 and M3 Pro).**
+
+---
+
+#### 1. Download and Move the Layout Files
+
+- Download the [ArmenianPhonetic.bundle](./ArmenianPhonetic.bundle) folder or the DMG file from the releases page. The DMG file contains the `ArmenianPhonetic.bundle`. Note that in the macOS UI, the `.bundle` appears as a single file but is actually a folder.
+- Copy the `ArmenianPhonetic.bundle` to the `~/Library/Keyboard Layouts/` directory.
+  To access the Library folder:
+  1. Open Finder and navigate to your home folder (`Command-Shift-H`).
+  2. In the menu, go to `View > Show View Options` (`Command-J`) and check the "Show Library Folder" option. Refer to the screenshot below for guidance:
+     ![Library Folder](./screenshots/show-library-folder.png)
+
+Alternatively, if you are comfortable with terminal and git commands, you can execute the following to automate the process:
+
 ```sh
-git clone git@github.com:vahe-evoyan/armenian-phonetic.git && cp -r ./armenian-phonetic/ArmenianPhonetic.bundle ./armenian-phonetic/ArmenianPhonetic.icns  ~/Library/Keyboard\ Layouts/ && rm -rf ./armenian-phonetic/
+git clone git@github.com:vahe-evoyan/armenian-phonetic.git \
+    && cp -r ./armenian-phonetic/ArmenianPhonetic.bundle \
+    ~/Library/Keyboard\ Layouts/ && rm -rf ./armenian-phonetic/
 ```
-Here is what you should see in folder `~/Library/Keyboard Layouts/` when browsing from finder or looking by terminal:
-[layouts folder in finder](./screenshots/manual-setup-library-keyboard-layouts-folder-finder.png),
-[layouts folder in terminal](./screenshots/manual-setup-library-keyboard-layouts-folder-terminal.png)
 
-2. Log out and log back in, or better restart the Mac
-3. Here is how to activate the new layout:
- - for old Mac OS versions: go to *Language & Text* (or System Preferences > Keyboard > Input Sources) preferences and check the *Armenian - Phonetic* check-box.
- - or for new Mac OS versions: go to System Settings and search for *Keyboard layouts* (or System Settings > Keyboard > Input Sources) preferences and in bottom left corner click on "+" button and select "Armenian" language in list, and then in opened right layouts list select preferred Armenian Phonetic layout and click on "add" button.
+Once completed, verify the `~/Library/Keyboard Layouts/` directory to confirm the layout files have been correctly copied. You can check using Finder or the terminal:
+
+- Finder View:
+  ![Layouts folder in Finder](./screenshots/manual-setup-library-keyboard-layouts-folder-finder.png)
+- Terminal View:
+  ![Layouts folder in Terminal](./screenshots/manual-setup-library-keyboard-layouts-folder-terminal.png)
+
+---
+
+#### 2. Load the Layout
+
+To apply the changes, log out of your macOS account and log back in. A full system restart is recommended for best results.
+
+---
+
+#### 3. Activate the Layout
+
+- **For older macOS versions:**
+  Navigate to *System Preferences > Keyboard > Input Sources* (or *Language & Text* in older versions). Locate and enable the *Armenian - Phonetic* checkbox.
+
+- **For newer macOS versions:**
+  Open *System Settings* and search for "Keyboard layouts" (or go to *System Settings > Keyboard > Input Sources*).
+  1. Click the "+" button in the bottom-left corner.
+  2. Select "Armenian" from the list of languages.
+  3. Choose your preferred *Armenian Phonetic* layout from the options on the right and click "Add."
