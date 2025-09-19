@@ -14,13 +14,13 @@ Below are brief instructions on the layout set-up.
 * Armenian Phonetic (KDWin) With English - KDWin phonetic layout with Option key feature.
 
 #### How To Install
-1. Download [ArmenianPhonetic.dmg](https://github.com/vahe-evoyan/armenian-phonetic/releases/download/v2.1.2/ArmenianPhonetic.dmg) file from the releases section.
-![Image Window](/screenshots/dmg-window.png)
-2. Drag the `ArmenianPhonetic.bundle` file to the `Keyboard Layouts` folder.
+1. Download [ArmenianPhonetic.dmg](https://github.com/vahe-evoyan/armenian-phonetic/releases/download/v2.2.0/ArmenianPhonetic.dmg) file from the releases section.
+![Image Window](./resources/screenshots/dmg-window.png)
+2. Drag the `ArmenianPhonetic` file to the `Keyboard Layouts` folder.
 3. The system will ask you to authenticate, as the directory requires super user access.
-![Permission Access](/screenshots/authenticate.png)
-4. The layouts should appear in the *Language & Text* (or System Preferences > Keyboard > Input Sources) preferences section. In case they didn't, simply log out and log back in, so that the OS reloads the layouts.
-![Permission Access](/screenshots/layout-settings.png)
+![Permission Access](./resources/screenshots/authenticate.png)
+4. The layouts should appear in the *Language & Text* (or System Preferences > Keyboard > Input Sources) preferences section. *In case they didn't, simply log out and log back in, so that the OS reloads the layouts.*
+![Permission Access](./resources/screenshots/layout-settings.png)
 
 
 ### Manual Installation
@@ -32,11 +32,11 @@ Below are brief instructions on the layout set-up.
 #### 1. Download and Move the Layout Files
 
 - Download the [ArmenianPhonetic.bundle](./ArmenianPhonetic.bundle) folder or the DMG file from the releases page. The DMG file contains the `ArmenianPhonetic.bundle`. Note that in the macOS UI, the `.bundle` appears as a single file but is actually a folder.
-- Copy the `ArmenianPhonetic.bundle` to the `~/Library/Keyboard Layouts/` directory.
+- Copy the `ArmenianPhonetic.bundle` to the `~/Library/Keyboard Layouts/` directory (or `/Library/Keyboard Layouts/` to install system wide).
   To access the Library folder:
   1. Open Finder and navigate to your home folder (`Command-Shift-H`).
   2. In the menu, go to `View > Show View Options` (`Command-J`) and check the "Show Library Folder" option. Refer to the screenshot below for guidance:
-     ![Library Folder](./screenshots/show-library-folder.png)
+     ![Library Folder](./resources/screenshots/show-library-folder.png)
 
 Alternatively, if you are comfortable with terminal and git commands, you can execute the following to automate the process:
 
@@ -49,9 +49,9 @@ git clone git@github.com:vahe-evoyan/armenian-phonetic.git \
 Once completed, verify the `~/Library/Keyboard Layouts/` directory to confirm the layout files have been correctly copied. You can check using Finder or the terminal:
 
 - Finder View:
-  ![Layouts folder in Finder](./screenshots/manual-setup-library-keyboard-layouts-folder-finder.png)
+  ![Layouts folder in Finder](./resources/screenshots/manual-setup-library-keyboard-layouts-folder-finder.png)
 - Terminal View:
-  ![Layouts folder in Terminal](./screenshots/manual-setup-library-keyboard-layouts-folder-terminal.png)
+  ![Layouts folder in Terminal](./resources/screenshots/manual-setup-library-keyboard-layouts-folder-terminal.png)
 
 ---
 

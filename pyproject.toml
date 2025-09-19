@@ -1,0 +1,20 @@
+[project]
+name = "armenian-phonetic"
+version = "2.2.0"
+description = "Armenian phonetic keyboard layouts for Mac OSX"
+authors = [
+    {name = "Vahe Evoyan", email = "vahe.evoyan@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dmgbuild >=1.6.5,<2.0.0"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
