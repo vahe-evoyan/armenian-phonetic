@@ -41,7 +41,7 @@ Below are brief instructions on the layout set-up.
 Alternatively, if you are comfortable with terminal and git commands, you can execute the following to automate the process:
 
 ```sh
-git clone git@github.com:vahe-evoyan/armenian-phonetic.git \
+git clone https://github.com/vahe-evoyan/armenian-phonetic.git \
     && cp -r ./armenian-phonetic/ArmenianPhonetic.bundle \
     ~/Library/Keyboard\ Layouts/ && rm -rf ./armenian-phonetic/
 ```
