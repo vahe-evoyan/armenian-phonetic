@@ -13,7 +13,7 @@
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISIconIsTemplate</key>
-		<false/>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic</string>
 		<key>TISIntendedLanguage</key>
@@ -24,7 +24,7 @@
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISIconIsTemplate</key>
-		<false/>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic(kdwin)</string>
 		<key>TISIntendedLanguage</key>
@@ -35,7 +35,7 @@
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISIconIsTemplate</key>
-		<false/>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphonetic(kdwin)withenglish</string>
 		<key>TISIntendedLanguage</key>
@@ -46,7 +46,7 @@
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISIconIsTemplate</key>
-		<false/>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.armenianphonetic.armenianphoneticwithenglish</string>
 		<key>TISIntendedLanguage</key>
