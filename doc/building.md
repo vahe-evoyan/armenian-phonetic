@@ -62,7 +62,9 @@ iconutil -c icns './resources/Armenian Phonetic.iconset' -o 'ArmenianPhonetic.bu
 
 Notes:
 - PNGs may be any shape (transparency supported), but the canvas must be square and exactly the sizes listed above.
-- Use standard 8‑bit RGBA, sRGB. Avoid CMYK/16‑bit images.
+- Input-source icons are template masks: use an opaque rounded badge with the glyph punched out transparently. macOS tints the badge and lets the menu background show through the glyph, matching the built-in layouts in light, dark, and highlighted states.
+- Set `TISIconIsTemplate` to `true` for every `KLInfo_*` entry in `ArmenianPhonetic.bundle/Contents/Info.plist`; this lets macOS tint the badge for the current appearance and selection state.
+- Use standard 8-bit RGBA, sRGB. Avoid CMYK/16-bit images.
 
 
 ### Troubleshooting
